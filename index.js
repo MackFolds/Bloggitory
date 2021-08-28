@@ -4,7 +4,6 @@ const path = require('path');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const session = require('express-session');
-// const session = require('cookie-session');
 const { ExpressOIDC } = require('@okta/oidc-middleware');
 const Sequelize = require('sequelize');
 const epilogue = require('epilogue'), ForbiddenError = epilogue.Errors.ForbiddenError;
@@ -37,16 +36,15 @@ app.use(oidc.router);
 
 app.use(cors());
 app.use(bodyParser.json());
-
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/home', (req, res) => {
     res.sendFile(path.join(__dirname, './public/home.html'));
- });
+});
 
- app.get('/admin', oidc.ensureAuthenticated(), (req, res) => {
+app.get('/admin', oidc.ensureAuthenticated(), (req, res) => {
     res.sendFile(path.join(__dirname, './public/admin.html'));
- });
+});
 
 app.get('/logout', (req, res) => {
   req.logout();
