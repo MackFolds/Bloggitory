@@ -1,0 +1,33 @@
+.img .logo-img {
+    width: 9rem!important;
+    height: 9rem!important;
+}
+
+.navbar-brand {
+font-size: 6rem!important;
+color: goldenrod!important;
+}
+
+.bg-dark {
+    background-color: black!important;
+}
+
+.bg-light{
+    background-color: #C4BBB8!important;
+}
+
+.container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn {
+    background-color: goldenrod;
+    color: black;
+}
+
+.card-body {
+    background-color: black;
+    color: goldenrod;
+}
