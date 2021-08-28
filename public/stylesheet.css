@@ -14,7 +14,6 @@ color: goldenrod!important;
 align-items: center;
 }
 
-
 .bg-dark {
     background-color: black!important;
 }
@@ -23,9 +22,6 @@ align-items: center;
     background-color: #474747!important;
 }
 
-.btn-outline-info{
-    
-}
 .container {
     max-width: 100%;
     padding-left: 0;
