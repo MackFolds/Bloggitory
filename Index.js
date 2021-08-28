@@ -93,4 +93,4 @@ database.sync().then(() => {
 oidc.on('error', err => {
     // An error occurred while setting up OIDC
     console.log("oidc error: ", err);
-});
+}); 
