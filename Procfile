@@ -1,1 +1,1 @@
-web: npm start $PORT
+web: ./node_modules/.bin/nodemon index.js
