@@ -2,7 +2,7 @@ const e = React.createElement;
 
 const AppNav = () => (
    <nav class="navbar navbar-dark bg-dark">
-       <img class="logo-img" src="./assets/logo.png" alt="logo" />
+       <img class="logo-img" src="./assets/logo-bloggitory.png" alt="logo" />
        <a class="navbar-brand" href="#">Bloggitory</a>
        <a role="button" class="btn btn-outline-info navbar-btn" href="/login">Login</a>
    </nav>

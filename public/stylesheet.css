@@ -1,21 +1,31 @@
-.img .logo-img {
-    width: 9rem!important;
-    height: 9rem!important;
+.img {
+    width: 6rem!important;
+    height: 6rem!important;
+    align-items: center;
+}
+
+.navbar{
+    justify-content: center!important;
 }
 
 .navbar-brand {
 font-size: 6rem!important;
 color: goldenrod!important;
+align-items: center;
 }
+
 
 .bg-dark {
     background-color: black!important;
 }
 
 .bg-light{
-    background-color: #C4BBB8!important;
+    background-color: #474747!important;
 }
 
+.btn-outline-info{
+    
+}
 .container {
     max-width: 100%;
     padding-left: 0;
@@ -25,6 +35,7 @@ color: goldenrod!important;
 .btn {
     background-color: goldenrod;
     color: black;
+    outline-color: white;
 }
 
 .card-body {
