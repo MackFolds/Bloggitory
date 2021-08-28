@@ -36,14 +36,14 @@ app.use(oidc.router);
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, 'public')));
+
 
 app.get('/home', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/home.html'));
+    res.send('<h1>Welcome!!</h1><a href="/login">Login</a>');
 });
 
 app.get('/admin', oidc.ensureAuthenticated(), (req, res) => {
-    res.sendFile(path.join(__dirname, './public/admin.html'));
+    res.send('Admin page');
 });
 
 app.get('/logout', (req, res) => {
@@ -93,4 +93,4 @@ database.sync().then(() => {
 oidc.on('error', err => {
     // An error occurred while setting up OIDC
     console.log("oidc error: ", err);
-}); 
+});
