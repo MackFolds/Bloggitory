@@ -15,7 +15,10 @@
   ### `npm start` 
   will kick off the React scripts and load it on a localhost.
   ## Usage
-  
+  Image of bloggitory booting up and CRUD actions in the terminal
+  ![Image of bloggitory booting up and CRUD](https://github.com/MackFolds/Bloggitory/blob/main/public/assets/Screenshot%20(90).png?raw=true)
+  Image of bloggitory admin page
+  ![Image of bloggitory admin page](https://github.com/MackFolds/Bloggitory/blob/main/public/assets/Screenshot%20(91).png?raw=true)
   
   ## Languages
   JavaScript<br>CSS<br>React.js
@@ -29,3 +32,4 @@
   ## Questions:
   If you have any questions please contact us or refer to our github below:
   Email Us At: MackFoldsIII@Gmail.com
+  Github Repo for macks portfolio: https://github.com/MackFolds/photo-port.git
