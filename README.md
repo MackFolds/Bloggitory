@@ -12,6 +12,8 @@
   
   ## Installation
   In the project directory, you can run:
+  ### `npm install` 
+  then
   ### `npm start` 
   will kick off the React scripts and load it on a localhost.
   ## Usage
